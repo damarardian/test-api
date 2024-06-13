@@ -10,7 +10,8 @@
         }
     ],
     "env": {
-        "APP_ENV": "cemilan",
+        "APP_NAME": "cemilan",
+        "APP_ENV": "local",
         "APP_DEBUG": "true",
         "APP_URL": "https://test-api-blond-kappa.vercel.app/",
 
@@ -20,9 +21,11 @@
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
-
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie"
+        "SESSION_DRIVER": "cookie",
+        "VIEW_COMPILED_PATH": "/tmp/views",
+        "SSR_TEMP_PATH": "/tmp/ssr",
+        "NODE_PATH": "node"
     }
 }
