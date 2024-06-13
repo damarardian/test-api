@@ -11,8 +11,8 @@
     ],
     "env": {
         "APP_NAME": "cemilan",
-        "APP_ENV": "local",
-        "APP_DEBUG": "true",
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
         "APP_URL": "https://test-api-lovat.vercel.app/",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
